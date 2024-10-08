@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body{
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9); 
+  color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #242127;
+    padding: 6px 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 16px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  nav ul li a:hover
+  {
+    background-color: #0e81ce;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+  }
+
+  
+  main {
+    padding: 0 20px 20px 20px;
+    background-color:#8da1b4cb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 628px;
+    display: flex;
+    justify-content: space-between;
+  }
+main #article
+{
+    width: 80%;
+    padding: 30px;
+}
+
+main #images
+{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+ 
+ main #images div img 
+{
+    height: 95%;
+    margin: 4px 0 9px 0px;
+    width: 100%;
+} 
+
+#images #img1
+{
+  margin-top: 18px;
+}
+
+section p{
+  font-size: 1.26rem;
+  color: rgb(0, 0, 0);
+  line-height: 26px;
+
+}
+
+
+  section #collageName
+  {
+    margin-top: 0 0 8px 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 44px;
+    color: rgba(101, 11, 190, 0.904);
+  }
+  
+  footer {
+    background-color: #1647a1e7;
+    padding: 3px;
+    margin-top: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+  footer p{
+    color: white;
+    margin-bottom: 1px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  } 
+
